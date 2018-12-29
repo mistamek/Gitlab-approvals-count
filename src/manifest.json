@@ -1,0 +1,12 @@
+  {
+    "name": "Gitlab approvals count",
+    "version": "1.0",
+    "description": "Gitlab approvals count",
+    "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+    "manifest_version": 2
+  }
